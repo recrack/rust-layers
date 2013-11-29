@@ -10,6 +10,7 @@
 #[feature(managed_boxes)];
 
 extern mod extra;
+extern mod egl;
 extern mod geom;
 extern mod opengles;
 extern mod std;
