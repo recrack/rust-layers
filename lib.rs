@@ -10,8 +10,8 @@
 #[feature(managed_boxes)];
 
 extern mod extra;
-extern mod geom = "rust-geom";
-extern mod opengles = "rust-opengles";
+extern mod geom;
+extern mod opengles;
 extern mod std;
 
 #[cfg(target_os="macos")]
